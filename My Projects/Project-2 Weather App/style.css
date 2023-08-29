@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Oswald:wght@400;500&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&family=Roboto:wght@100;300&family=Ubuntu:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  width: 90%;
+  max-width: 470px;
+  text-align: center;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  padding: 35px 40px;
+  margin: 25px auto 0;
+  border-radius: 20px;
+}
+
+.search {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBox {
+  border: 0;
+  outline: 0;
+  background: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 60px;
+  flex: 1;
+  font-size: 18px;
+  border-radius: 30px;
+  margin: 16px;
+}
+
+.searchBtn {
+  background-color: #ebfffc;
+  border-radius: 50%;
+  border: 0;
+  outline: 0;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.weather img {
+  width: 170px;
+  margin: 25px;
+}
+
+.weather h1 {
+  font-size: 80px;
+  margin-top: -10px;
+}
+
+.searchBtn img {
+  width: 16px;
+}
+
+.details {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
